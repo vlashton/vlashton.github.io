@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Ashton Home School: National Mall Junior Rangers</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="alternate" type="application/atom+xml" title="Ashton Home School - Atom" href="http://vicki.ashtonfam.org/homeschool-weblog/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="Ashton Home School - RSS" href="http://vicki.ashtonfam.org/homeschool-weblog/rss.xml" />
+<link rel="service.post" type="application/atom+xml" title="Ashton Home School - Atom" href="http://www.blogger.com/feeds/7575196/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=7575196" />
+<link rel="alternate" type="application/atom+xml" title="Ashton Home School - Atom" href="http://vicki.ashtonfam.org/homeschool-weblog/atom.xml" />
+<style type="text/css">
+@import url("http://www.blogger.com/css/blog_controls.css");
+@import url("http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7575196");
+</style>
+
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     27 Feb 2004
+----------------------------------------------- */
+
+
+body {
+  background:#aba;
+  margin:0;
+  padding:20px 10px;
+  text-align:center;
+  font:x-small/1.5em "Trebuchet MS",Verdana,Arial,Sans-serif;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+
+
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the 
+   following widths and measurements. If you want to change 
+   these measurements, the images will also need to change.
+   */
+#content {
+  width:740px;
+  margin:0 auto;
+  text-align:left;
+  }
+#main {
+  width:485px;
+  float:left;
+  background:#fff url("http://www.blogblog.com/rounders/corners_main_bot.gif") no-repeat left bottom;
+  margin:15px 0 0;
+  padding:0 0 10px;
+  color:#000;
+  font-size:97%;
+  line-height:1.5em;
+  }
+#main2 {
+  float:left;
+  width:100%;
+  background:url("http://www.blogblog.com/rounders/corners_main_top.gif") no-repeat left top;
+  padding:10px 0 0;
+  }
+#main3 {
+  background:url("http://www.blogblog.com/rounders/rails_main.gif") repeat-y;
+  padding:0;
+  }
+#sidebar {
+  width:240px;
+  float:right;
+  margin:15px 0 0;
+  font-size:97%;
+  line-height:1.5em;
+  }
+
+
+/* Links
+----------------------------------------------- */
+a:link {
+  color:#258;
+  }
+a:visited {
+  color:#666;
+  }
+a:hover {
+  color:#c63;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Blog Header
+----------------------------------------------- */
+#header {
+  background:#456 url("http://www.blogblog.com/rounders/corners_cap_top.gif") no-repeat left top;
+  margin:0 0 0;
+  padding:8px 0 0;
+  color:#fff;
+  }
+#header div {
+  background:url("http://www.blogblog.com/rounders/corners_cap_bot.gif") no-repeat left bottom;
+  padding:0 15px 8px;
+  }
+#blog-title {
+  margin:0;
+  padding:10px 30px 5px;
+  font-size:200%;
+  line-height:1.2em;
+  color:#fff;
+  }
+#blog-title a {
+  text-decoration:none;
+  color:#fff;
+  }
+#description {
+  margin:0;
+  padding:5px 30px 10px;
+  font-size:94%;
+  line-height:1.5em;
+  color:#fff;
+  }
+#description a {
+  color:#fff;
+  }
+
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin:0 28px 0 43px;
+  font-size:85%;
+  line-height:2em;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#357;
+  }
+.post {
+  margin:.3em 0 25px;
+  padding:0 13px;
+  border:1px dotted #bbb;
+  border-width:1px 0;
+  }
+.post-title {
+  margin:0;
+  font-size:135%;
+  line-height:1.5em;
+  background:url("http://www.blogblog.com/rounders/icon_arrow.gif") no-repeat 10px .5em;
+  display:block;
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  padding:2px 14px 2px 29px;
+  color:#333;
+  }
+a.title-link, .post-title strong {
+  text-decoration:none;
+  display:block;
+  }
+a.title-link:hover {
+  background-color:#ded;
+  color:#000;
+  }
+.post-body {
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  border-bottom-color:#fff;
+  padding:10px 14px 1px 29px;
+  }
+html>body .post-body {
+  border-bottom-width:0;
+  }
+.post p {
+  margin:0 0 .75em;
+  }
+p.post-footer {
+  background:#ded;
+  margin:0;
+  padding:2px 14px 2px 29px;
+  border:1px dotted #bbb;
+  border-width:1px;
+  border-bottom:1px solid #eee;
+  font-size:100%;
+  line-height:1.5em;
+  color:#666;
+  text-align:right;
+  }
+html>body p.post-footer {
+  border-bottom-color:transparent;
+  }
+p.post-footer em {
+  display:block;
+  float:left;
+  text-align:left;
+  font-style:normal;
+  }
+a.comment-link {
+  /* IE5.0/Win doesn't apply padding to inline elements,
+     so we hide these two declarations from it */
+  background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+html>body a.comment-link {
+  /* Respecified, for IE5/Mac's benefit */
+  background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+.post img {
+  margin:0 0 5px 0;
+  padding:4px;
+  border:1px solid #ccc;
+  }
+blockquote {
+  margin:.75em 0;
+  border:1px dotted #ccc;
+  border-width:1px 0;
+  padding:5px 15px;
+  color:#666;
+  }
+.post blockquote p {
+  margin:.5em 0;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin:-25px 13px 0;
+  border:1px dotted #ccc;
+  border-width:0 1px 1px;
+  padding:20px 0 15px 0;
+  }
+#comments h4 {
+  margin:0 0 10px;
+  padding:0 14px 2px 29px;
+  border-bottom:1px dotted #ccc;
+  font-size:120%;
+  line-height:1.4em;
+  color:#333;
+  }
+#comments-block {
+  margin:0 15px 0 9px;
+  }
+.comment-data {
+  background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 2px .3em;
+  margin:.5em 0;
+  padding:0 0 0 20px;
+  color:#666;
+  }
+.comment-poster {
+  font-weight:bold;
+  }
+.comment-body {
+  margin:0 0 1.25em;
+  padding:0 0 0 20px;
+  }
+.comment-body p {
+  margin:0 0 .5em;
+  }
+.comment-timestamp {
+  margin:0 0 .5em;
+  padding:0 0 .75em 20px;
+  color:#666;
+  }
+.comment-timestamp a:link {
+  color:#666;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  background:#cdc url("http://www.blogblog.com/rounders/corners_prof_bot.gif") no-repeat left bottom;
+  margin:0 0 15px;
+  padding:0 0 10px;
+  color:#345;
+  }
+#profile-container h2 {
+  background:url("http://www.blogblog.com/rounders/corners_prof_top.gif") no-repeat left top;
+  padding:10px 15px .2em;
+  margin:0;
+  border-width:0;
+  font-size:115%;
+  line-height:1.5em;
+  color:#234;
+  }
+.profile-datablock {
+  margin:0 15px .5em;
+  border-top:1px dotted #aba;
+  padding-top:8px;
+  }
+.profile-img {display:inline;}
+.profile-img img {
+  float:left;
+  margin:0 10px 5px 0;
+  border:4px solid #fff;
+  }
+.profile-data strong {
+  display:block;
+  }
+#profile-container p {
+  margin:0 15px .5em;
+  }
+#profile-container .profile-textblock {
+  clear:left;
+  }
+#profile-container a {
+  color:#258;
+  }
+.profile-link a {
+  background:url("http://www.blogblog.com/rounders/icon_profile.gif") no-repeat 0 .1em;
+  padding-left:15px;
+  font-weight:bold;
+  }
+ul.profile-datablock {
+  list-style-type:none;
+  }
+
+
+/* Sidebar Boxes
+----------------------------------------------- */
+.box {
+  background:#fff url("http://www.blogblog.com/rounders/corners_side_top.gif") no-repeat left top;
+  margin:0 0 15px;
+  padding:10px 0 0;
+  color:#666;
+  }
+.box2 {
+  background:url("http://www.blogblog.com/rounders/corners_side_bot.gif") no-repeat left bottom;
+  padding:0 13px 8px;
+  }
+.sidebar-title {
+  margin:0;
+  padding:0 0 .2em;
+  border-bottom:1px dotted #9b9;
+  font-size:115%;
+  line-height:1.5em;
+  color:#333;
+  }
+.box ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+.box ul li {
+  background:url("http://www.blogblog.com/rounders/icon_arrow_sm.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 3px 16px;
+  margin-bottom:3px;
+  border-bottom:1px dotted #eee;
+  line-height:1.4em;
+  }
+.box p {
+  margin:0 0 .6em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  clear:both;
+  margin:0;
+  padding:15px 0 0;
+  }
+#footer div {
+  background:#456 url("http://www.blogblog.com/rounders/corners_cap_top.gif") no-repeat left top;
+  padding:8px 0 0;
+  color:#fff;
+  }
+#footer div div {
+  background:url("http://www.blogblog.com/rounders/corners_cap_bot.gif") no-repeat left bottom;
+  padding:0 15px 8px;
+  }
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#fff;}
+  </style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- Begin #content - Centers all content and provides edges for floated columns -->
+
+<div id="content">
+
+
+
+<!-- Blog Header -->
+
+<div id="header"><div>
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td>
+  <h1 id="blog-title">
+    <a href="http://vicki.ashtonfam.org/homeschool-weblog/">
+	Ashton Home School
+	</a>
+  </h1>
+  <p id="description">A chronicle of William and Beth's schooling adventures.</p>
+</td><td align="right"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/hswillbethmain.png" width="175">
+</td></tr></table>
+</div></div>
+
+
+
+
+
+<!-- Begin #main - Contains main-column blog content -->
+
+<div id="main"><div id="main2"><div id="main3">
+
+
+
+    
+  <h2 class="date-header">Tuesday, May 09, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="114772151245602880"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 National Mall Junior Rangers
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>Today we rode into town with Danny on the train so that the kids could work on their <a href="http://www.nps.gov/nacc/pphtml/forkids.html">National Mall Junior Ranger</a> requirements.  The book lays out a very nice route to take around the monuments, but of course it doesn't take into consideration the need to back track when the time comes to make use of your Washington Monument passes or diverging from the route to get lunch. We also added to our trip by hiking across town to Union Station at the end of the day.  All told, we hiked about six miles around Washington DC today.  Strange coincidence that we happened to hike about six miles on trails at the C & O Canal just yesterday.<br /><br />After getting passes for 12:00 pm to go up in the Washington Monument we rushed over to the World War II Memorial which has a good sized ranger station to pick up the National Mall Junior Ranger booklets.  We were grateful that they had them, and we quickly proceeded towards the Korean War Memorial to find the clues we needed to complete the appropriate pages in the booklets.  Halfway there we were side tracked by some ducklings in the Reflection Pond.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9850.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9850.JPG" width="395" /></a><br /><br />The ducks actually came in handy later when we found that one of the requirements was to write a poem about something you had seen.  William wrote his about one of these ducks that sniffed his toe.<br /><br /><i>I saw a duck<br />In the pond<br />It sniffed my toe<br />And I moved on.</i><br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9856.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9856.JPG" width="395" /></a><br /><br />After enjoying the birds we rushed on to the Korean, Lincoln, and Vietnam Memorial.  We have been to all of these many times, and it was quick work to fill in the information needed at these areas.  Beth's inspiration for her poem came from this squirrel near the Vietnam War Memorial.<br /><br /><i>Squirrels are funny<br />Squirrels are sweet<br />I like squirrels that<br />Sniff my feet.</i><br /><br />Alright, neither poem is very inspirational, (smile) but considering the rush we were in, and considering the fact that for some reason all three of us were in a very silly mood today, they seemed fitting and appropriate at the time.  :)<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9859.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9859.JPG" width="395" /></a><br /><br />The Washington Monument<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9860.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9860.JPG" width="395" /></a><br /><br />William and Beth worked on their ranger booklets while we waited for our turn to tour the Washington Monument.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9862.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9862.JPG" width="395" /></a><br /><br />A view of the World War II Memorial and the Lincoln Memorial from up in the Washington Monument<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9867.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9867.JPG" width="395" /></a><br /><br />We found this nice little fountain along Constitution Ave.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9868.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9868.JPG" width="395" /></a><br /><br />After lunch we rushed back towards <a href="http://www.nps.gov/coga/">Constitution Gardens</a> where we needed to view the 56 Signers of the Declaration of Independence memorial.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9880.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9880.JPG" width="395" /></a><br /><br />We were so tired by this point that we contemplated just resting on the island the rest of the day.  There was a little family of geese nearby, and it sounded like a lovely way to pass the afternoon.  But after twenty minutes or so the sun went behind a cloud and the temperature dropped.  We decided we might as well get moving again.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9882.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9882.JPG" width="395" /></a><br /><br />We quickly made our way across the mall to the John Paul Jones Memorial.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9885.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9885.JPG" width="395" /></a><br /><br />The kids answered the appropriate questions and then we contemplated making the march over to the Jefferson Memorial (which you can see in the back ground of this picture -  the deceptive part is that you have to go around the tidal basin to get there).<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9886.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9886.JPG" width="395" /></a><br /><br />We were pretty tired by this time but we pressed on, determined to finish the requirements for the Junior Ranger today.  We were glad to find a ranger on duty at the Jefferson Memorial because some of the information needed was not available due to repairs being done to the memorial.  They completed their booklets with his help and we raced back around the Tidal Basin so that we could get in the door of the main ranger station on the mall before they closed.  The kids did not need to visit the Franklin Delano Roosevelt Memorial.  We have been there so many times, and we even have a book about it.  Thankfully all of the questions concerning it were answered with ease without our making the trek over there.  We made it to the ranger station just before closing, and after they received their certificates and badges we slowly made our way towards Union Station.<div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/national-mall-junior-rangers" title="permanent link">9:04 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/national-mall-junior-rangers#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=114772151245602880" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=114772151245602880" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <div id="comments">
+
+	<a name="comments"></a>
+
+        <h4>0 Comments:</h4>
+
+        <dl id="comments-block">
+      
+
+    </dl>
+		<p class="comment-data">
+    <a class="comment-link" href="http://www.blogger.com/comment.g?blogID=7575196&postID=114772151245602880&isPopup=true" onclick="window.open(this.href, 'bloggerPopup', 'toolbar=0,scrollbars=1,location=0,statusbar=1,menubar=0,resizable=1,width=400,height=450');return false;">Post a Comment</a>
+    </p>
+
+    
+		<p style="padding-left:20px;">
+	<a href="http://vicki.ashtonfam.org/homeschool-weblog/">&lt;&lt; Home</a>
+    </p>
+    </div>
+
+
+
+  <!-- End #comments -->
+
+
+
+
+
+</div></div></div>
+
+<!-- End #main -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+
+<div id="sidebar">
+
+    <!-- Begin #profile-container -->
+
+   <div id="profile-container"><h2 class="sidebar-title">About Me</h2>
+<dl class="profile-datablock"><dt class="profile-img"><a href="http://www.blogger.com/profile/02971722613129488872"><img src="http://vicki.ashtonfam.org/pix/vicsblogpics/usprofile.gif" width="65" height="80" alt="My Photo"></a></dt>
+<dd class="profile-data"><strong>Name:</strong>  Vicki Ashton </dd>
+<dd class="profile-data"><strong>Location:</strong>  Germantown, Maryland, United States </dd></dl>
+
+<p class="profile-link"><a href="http://www.blogger.com/profile/02971722613129488872">View my complete profile</a></p></div>
+
+  <!-- End #profile -->
+
+
+
+    <!-- Begin .box -->
+
+  <div class="box"><div class="box2"><div class="box3">
+
+      <h2 class="sidebar-title">William and Beth's Blogs</h2>
+    <ul>
+<li><a href="http://williamsenglishassignment.blogspot.com/">William's English Blog
+<li><a href="http://williamspathfinderblog.blogspot.com/">William's Pathfinder Blog</a></li>
+<li><a href="http://bethswritingassignment.blogspot.com/">Beth's English Blog</a></li>
+<li><a href="http://bethswildlifejournal.blogspot.com/">Beth's Wildlife Journal</a></li>
+    </ul>
+
+      <h2 class="sidebar-title">Family Blogs</h2>
+    <ul>
+        <li><a href="http://vicsgarden.blogspot.com/">My Garden</a></li>
+        <li><a href="http://ashtoncats.blogspot.com/">The Cats of Ashton Hall</a></li>
+        <li><a href="http://parajournal.blogspot.com/">Parakeet Journal</a></li>
+    	 <li><a href="http://daniel.ashtonfam.org/weblog/">J. Daniel Ashton</a></li>
+        <li><a href="http://mdmusic.blogspot.com/">Maryland Music</a></li>
+    </ul>
+
+      <h2 class="sidebar-title">Previous Posts</h2>
+    <ul id="recently">
+    
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/hiking-billy-goat-trail">Hiking the Billy Goat Trail</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bird-list-update_08">Bird List Update</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/great-falls-junior-rangers">Great Falls Junior Rangers</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/pathfinder-fair">The Pathfinder Fair</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bird-list-update_07">Bird List Update</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/sabbath-at-great-falls">Sabbath at Great Falls</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bird-list-update_06">Bird List Update</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bikingbirding-at-dyke-marsh">Biking/Birding at Dyke Marsh</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bird-list-update_05">Bird List Update</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/05/bird-list-update_02">Bird List Update</a></li>
+     
+  </ul>
+
+    
+      <p id="powered-by"><a href="http://www.blogger.com"><img src="http://buttons.blogger.com/bloggerbutton1.gif" alt="Powered by Blogger" /></a></p>
+
+        <!--
+
+    <p>This is a paragraph of text that could go in the sidebar.</p>
+
+    -->
+
+    </div></div></div>
+
+  <!-- End .box -->
+
+
+
+
+</div>
+
+<!-- End #sidebar -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #footer -->
+
+<div id="footer"><div><div><hr />
+
+
+
+  <p><!-- This is an optional footer. If you want text here, place it inside these tags, and remove this comment. -->&nbsp;</p>
+
+
+
+</div></div></div>
+
+<!-- End #footer -->
+
+
+
+
+
+
+
+
+</div>
+
+<!-- End #content -->
+
+
+
+</body>
+
+</html>

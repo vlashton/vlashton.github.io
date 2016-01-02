@@ -1,0 +1,993 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>Ashton Home School: August 2006</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="alternate" type="application/atom+xml" title="Ashton Home School - Atom" href="http://vicki.ashtonfam.org/homeschool-weblog/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="Ashton Home School - RSS" href="http://vicki.ashtonfam.org/homeschool-weblog/rss.xml" />
+<link rel="service.post" type="application/atom+xml" title="Ashton Home School - Atom" href="http://www.blogger.com/feeds/7575196/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=7575196" />
+<style type="text/css">
+@import url("http://www.blogger.com/css/blog_controls.css");
+@import url("http://www.blogger.com/dyn-css/authorization.css?targetBlogID=7575196");
+</style>
+
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Rounders
+Designer: Douglas Bowman
+URL:      www.stopdesign.com
+Date:     27 Feb 2004
+----------------------------------------------- */
+
+
+body {
+  background:#aba;
+  margin:0;
+  padding:20px 10px;
+  text-align:center;
+  font:x-small/1.5em "Trebuchet MS",Verdana,Arial,Sans-serif;
+  color:#333;
+  font-size/* */:/**/small;
+  font-size: /**/small;
+  }
+
+
+/* Page Structure
+----------------------------------------------- */
+/* The images which help create rounded corners depend on the 
+   following widths and measurements. If you want to change 
+   these measurements, the images will also need to change.
+   */
+#content {
+  width:740px;
+  margin:0 auto;
+  text-align:left;
+  }
+#main {
+  width:485px;
+  float:left;
+  background:#fff url("http://www.blogblog.com/rounders/corners_main_bot.gif") no-repeat left bottom;
+  margin:15px 0 0;
+  padding:0 0 10px;
+  color:#000;
+  font-size:97%;
+  line-height:1.5em;
+  }
+#main2 {
+  float:left;
+  width:100%;
+  background:url("http://www.blogblog.com/rounders/corners_main_top.gif") no-repeat left top;
+  padding:10px 0 0;
+  }
+#main3 {
+  background:url("http://www.blogblog.com/rounders/rails_main.gif") repeat-y;
+  padding:0;
+  }
+#sidebar {
+  width:240px;
+  float:right;
+  margin:15px 0 0;
+  font-size:97%;
+  line-height:1.5em;
+  }
+
+
+/* Links
+----------------------------------------------- */
+a:link {
+  color:#258;
+  }
+a:visited {
+  color:#666;
+  }
+a:hover {
+  color:#c63;
+  }
+a img {
+  border-width:0;
+  }
+
+
+/* Blog Header
+----------------------------------------------- */
+#header {
+  background:#456 url("http://www.blogblog.com/rounders/corners_cap_top.gif") no-repeat left top;
+  margin:0 0 0;
+  padding:8px 0 0;
+  color:#fff;
+  }
+#header div {
+  background:url("http://www.blogblog.com/rounders/corners_cap_bot.gif") no-repeat left bottom;
+  padding:0 15px 8px;
+  }
+#blog-title {
+  margin:0;
+  padding:10px 30px 5px;
+  font-size:200%;
+  line-height:1.2em;
+  color:#fff;
+  }
+#blog-title a {
+  text-decoration:none;
+  color:#fff;
+  }
+#description {
+  margin:0;
+  padding:5px 30px 10px;
+  font-size:94%;
+  line-height:1.5em;
+  color:#fff;
+  }
+#description a {
+  color:#fff;
+  }
+
+/* Posts
+----------------------------------------------- */
+.date-header {
+  margin:0 28px 0 43px;
+  font-size:85%;
+  line-height:2em;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#357;
+  }
+.post {
+  margin:.3em 0 25px;
+  padding:0 13px;
+  border:1px dotted #bbb;
+  border-width:1px 0;
+  }
+.post-title {
+  margin:0;
+  font-size:135%;
+  line-height:1.5em;
+  background:url("http://www.blogblog.com/rounders/icon_arrow.gif") no-repeat 10px .5em;
+  display:block;
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  padding:2px 14px 2px 29px;
+  color:#333;
+  }
+a.title-link, .post-title strong {
+  text-decoration:none;
+  display:block;
+  }
+a.title-link:hover {
+  background-color:#ded;
+  color:#000;
+  }
+.post-body {
+  border:1px dotted #bbb;
+  border-width:0 1px 1px;
+  border-bottom-color:#fff;
+  padding:10px 14px 1px 29px;
+  }
+html>body .post-body {
+  border-bottom-width:0;
+  }
+.post p {
+  margin:0 0 .75em;
+  }
+p.post-footer {
+  background:#ded;
+  margin:0;
+  padding:2px 14px 2px 29px;
+  border:1px dotted #bbb;
+  border-width:1px;
+  border-bottom:1px solid #eee;
+  font-size:100%;
+  line-height:1.5em;
+  color:#666;
+  text-align:right;
+  }
+html>body p.post-footer {
+  border-bottom-color:transparent;
+  }
+p.post-footer em {
+  display:block;
+  float:left;
+  text-align:left;
+  font-style:normal;
+  }
+a.comment-link {
+  /* IE5.0/Win doesn't apply padding to inline elements,
+     so we hide these two declarations from it */
+  background/* */:/**/url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+html>body a.comment-link {
+  /* Respecified, for IE5/Mac's benefit */
+  background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 0 45%;
+  padding-left:14px;
+  }
+.post img {
+  margin:0 0 5px 0;
+  padding:4px;
+  border:1px solid #ccc;
+  }
+blockquote {
+  margin:.75em 0;
+  border:1px dotted #ccc;
+  border-width:1px 0;
+  padding:5px 15px;
+  color:#666;
+  }
+.post blockquote p {
+  margin:.5em 0;
+  }
+
+
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin:-25px 13px 0;
+  border:1px dotted #ccc;
+  border-width:0 1px 1px;
+  padding:20px 0 15px 0;
+  }
+#comments h4 {
+  margin:0 0 10px;
+  padding:0 14px 2px 29px;
+  border-bottom:1px dotted #ccc;
+  font-size:120%;
+  line-height:1.4em;
+  color:#333;
+  }
+#comments-block {
+  margin:0 15px 0 9px;
+  }
+.comment-data {
+  background:url("http://www.blogblog.com/rounders/icon_comment.gif") no-repeat 2px .3em;
+  margin:.5em 0;
+  padding:0 0 0 20px;
+  color:#666;
+  }
+.comment-poster {
+  font-weight:bold;
+  }
+.comment-body {
+  margin:0 0 1.25em;
+  padding:0 0 0 20px;
+  }
+.comment-body p {
+  margin:0 0 .5em;
+  }
+.comment-timestamp {
+  margin:0 0 .5em;
+  padding:0 0 .75em 20px;
+  color:#666;
+  }
+.comment-timestamp a:link {
+  color:#666;
+  }
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+
+/* Profile
+----------------------------------------------- */
+#profile-container {
+  background:#cdc url("http://www.blogblog.com/rounders/corners_prof_bot.gif") no-repeat left bottom;
+  margin:0 0 15px;
+  padding:0 0 10px;
+  color:#345;
+  }
+#profile-container h2 {
+  background:url("http://www.blogblog.com/rounders/corners_prof_top.gif") no-repeat left top;
+  padding:10px 15px .2em;
+  margin:0;
+  border-width:0;
+  font-size:115%;
+  line-height:1.5em;
+  color:#234;
+  }
+.profile-datablock {
+  margin:0 15px .5em;
+  border-top:1px dotted #aba;
+  padding-top:8px;
+  }
+.profile-img {display:inline;}
+.profile-img img {
+  float:left;
+  margin:0 10px 5px 0;
+  border:4px solid #fff;
+  }
+.profile-data strong {
+  display:block;
+  }
+#profile-container p {
+  margin:0 15px .5em;
+  }
+#profile-container .profile-textblock {
+  clear:left;
+  }
+#profile-container a {
+  color:#258;
+  }
+.profile-link a {
+  background:url("http://www.blogblog.com/rounders/icon_profile.gif") no-repeat 0 .1em;
+  padding-left:15px;
+  font-weight:bold;
+  }
+ul.profile-datablock {
+  list-style-type:none;
+  }
+
+
+/* Sidebar Boxes
+----------------------------------------------- */
+.box {
+  background:#fff url("http://www.blogblog.com/rounders/corners_side_top.gif") no-repeat left top;
+  margin:0 0 15px;
+  padding:10px 0 0;
+  color:#666;
+  }
+.box2 {
+  background:url("http://www.blogblog.com/rounders/corners_side_bot.gif") no-repeat left bottom;
+  padding:0 13px 8px;
+  }
+.sidebar-title {
+  margin:0;
+  padding:0 0 .2em;
+  border-bottom:1px dotted #9b9;
+  font-size:115%;
+  line-height:1.5em;
+  color:#333;
+  }
+.box ul {
+  margin:.5em 0 1.25em;
+  padding:0 0px;
+  list-style:none;
+  }
+.box ul li {
+  background:url("http://www.blogblog.com/rounders/icon_arrow_sm.gif") no-repeat 2px .25em;
+  margin:0;
+  padding:0 0 3px 16px;
+  margin-bottom:3px;
+  border-bottom:1px dotted #eee;
+  line-height:1.4em;
+  }
+.box p {
+  margin:0 0 .6em;
+  }
+
+
+/* Footer
+----------------------------------------------- */
+#footer {
+  clear:both;
+  margin:0;
+  padding:15px 0 0;
+  }
+#footer div {
+  background:#456 url("http://www.blogblog.com/rounders/corners_cap_top.gif") no-repeat left top;
+  padding:8px 0 0;
+  color:#fff;
+  }
+#footer div div {
+  background:url("http://www.blogblog.com/rounders/corners_cap_bot.gif") no-repeat left bottom;
+  padding:0 15px 8px;
+  }
+#footer hr {display:none;}
+#footer p {margin:0;}
+#footer a {color:#fff;}
+  </style>
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- Begin #content - Centers all content and provides edges for floated columns -->
+
+<div id="content">
+
+
+
+<!-- Blog Header -->
+
+<div id="header"><div>
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tr><td>
+  <h1 id="blog-title">
+    
+	Ashton Home School
+	
+  </h1>
+  <p id="description">A chronicle of William and Beth's schooling adventures.</p>
+</td><td align="right"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics/hswillbethmain.png" width="175">
+</td></tr></table>
+</div></div>
+
+
+
+
+
+<!-- Begin #main - Contains main-column blog content -->
+
+<div id="main"><div id="main2"><div id="main3">
+
+
+
+    
+  <h2 class="date-header">Tuesday, August 29, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="115688187902680336"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Seventy Birds!
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>1 American Crow<br />2 American Goldfinch<br />3 American Robin<br />4 Bald Eagle<br />5 Baltimore Oriole<br />6 Barn Swallow<br />7 Belted Kingfisher<br />8 Black Skimmer<br />9 Black Vulture<br />10 Black-capped Chickadee<br />11 Black-crowned Night Heron<br />12 Blue Jay<br />13 Brown Thrasher<br />14 Brown-headed Cowbird<br />15 Canadian Goose<br />16 Cardinal<br />17 Carolina Wren<br />18 Cedar Wax-wing<br />19 Cliff Swallow<br />20 Common Grackle<br />21 Common Loon<br />22 Dark-eyed Junko<br />23 Double Crested Cormorant<br />24 Downy Woodpecker<br />25 Eastern Bluebird<br />26 Eastern Kingbird<br />27 Eastern Wood-Pewee<br />28 European Starling<br />29 Forster’s Tern<br />30 Glossy Ibis<br />31 Gray Catbird<br />32 Great Black-backed Gull<br />33 Great Blue Heron<br />34 Great Egret<br />35 Green Heron<br />36 Herring Gull<br />37 House Finch<br />38 House Sparrow<br />39 Indigo Bunting<br />40 Killdeer<br />41 Laughing Gull<br />42 Least Sandpiper<br />43 Little Blue Heron<br />44 Mallard Duck<br />45 Mocking Bird<br />46 Mourning Dove<br />47 Mute Swan<br />48 Northern Flicker<br />49 Osprey<br />50 Oystercatcher<br />51 Pileated Woodpecker<br />52 Red-bellied Woodpecker<br />53 Red-tailed Hawk<br />54 Red-winged Blackbird<br />55 Ring-billed Gull<br />56 Rock Pigeon<br />57 Ruby-throated Hummingbird<br />58 Scarlet Tanager<br />59 Semipalmated Plover<br />60 Snow Goose<br />61 Snowy Egret<br />62 Song Sparrow<br />63 Summer Tanager<br />64 Tricolored Heron<br />65 Tufted Titmouse<br />66 Turkey Vulture<br />67 White-breasted Nuthatch<br />68 White-throated Sparrow<br />69 Wild Turkey<br />70 Willet<div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/seventy-birds" title="permanent link">4:03 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/seventy-birds#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=115688187902680336" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=115688187902680336" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Monday, August 14, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="116302751494446410"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Our Trip to the Island of Ponies
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>Bird watching at <a href="http://www.chincoteague.com/">Chincoteague Island</a>.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague1.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague1.JPG" width="395" /></a><br /><br />Ponie watching on <a href="http://www.nps.gov/asis/">Assateague Island</a>.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague2.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague2.JPG" width="395" /></a><br /><br />Surf watching.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague3.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague3.JPG" width="395" /></a><br /><br />Listening to a ranger give a talk on clams, as part of the <a href="http://www.nps.gov/asis/forkids/index.htm">Junior Ranger program for Assateague Island</a>.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague4.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/assateague4.JPG" width="395" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/our-trip-to-island-of-ponies" title="permanent link">5:54 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/our-trip-to-island-of-ponies#comments">1 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=116302751494446410" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=116302751494446410" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="116302924063446073"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Wallops
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>We had never heard of it before, but it seems <a href="http://www.wff.nasa.gov/">Wallops</a> is NASA's most active launch range, having launched more than 15,000 rocket missions since  1945. We stopped in on our way to Assateague Island.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/wallops1.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/wallops1.JPG" width="395" /></a><br /><br />William and Beth had fun with some of the experiments available in the hands-on area of the museum.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/wallops2.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/wallops2.JPG" width="395" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/wallops" title="permanent link">4:14 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/wallops#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=116302924063446073" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=116302924063446073" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, August 13, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="115688074558891105"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Bird List Update
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div><b><u>08-12-06</u></b> - Just after the Bay Bridge, Chesapeake Bay<br /><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Mute_Swan.html">Mute Swan</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Great_Black-backed_Gull.html">Great Black-backed Gull</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Laughing_Gull.html">Laughing Gull</a><br /><br /><b><u>08-12-06</u></b> - Chincoteague Island, bird watching boat ride<br /><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Herring_Gull.html">Herring Gull</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Semipalmated_Plover.html">Semiplamated Plover</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Snowy_Egret.html">Snowy Egret</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Little_Blue_Heron.html">Little Blue Heron</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/American_Oystercatcher.html">Oystercatcher</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Forsters_Tern.html">Forster's Tern</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Willet.html">Willet</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Bald_Eagle.html">Bald Eagle</a> - on Assateague Island<br /><br /><b><u>08-12-06</u></b> Assateague Island nature drive (Southern end of island)<br /><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Great_Egret.html">Great Egret</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Green_Heron.html">Green Heron</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Black_Skimmer.html">Black Skimmer</a></li><br /><br /><b><u>08-13-06</u></b> Assateague Island (Northern end of island)<br /><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Glossy_Ibis.html">Glossy Ibis</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Tricolored_Heron.html">Tricolored Heron</a></li><li><a href="http://www.birds.cornell.edu/AllAboutBirds/BirdGuide/Least_Sandpiper.html">Least Sandpiper</a></li><br /><i>Total: 70/60</i><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/bird-list-update_115688074558891105" title="permanent link">2:36 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/bird-list-update_115688074558891105#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=115688074558891105" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=115688074558891105" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Tuesday, August 08, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="116302498580164029"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Tennessee Aquarium
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>While we were in Tennessee, we decided to visit the aquarium.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua1.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua1.JPG" width="395" /></a><br /><br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua2.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua2.JPG" width="395" /></a><br /><br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua3.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/aqua3.JPG" width="395" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/tennessee-aquarium" title="permanent link">5:09 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/tennessee-aquarium#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=116302498580164029" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=116302498580164029" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Sunday, August 06, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="115523747348702215"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Bird List Update
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div><b><u>08-06-06</u></b><br />- On the phone line over the stream at the entrance to <a href="http://www.southern.edu/">Southern Adventist University</a> in Collegedale, TN.<br /><li><a href="http://identify.whatbird.com/obj/61/_/Belted_Kingfisher.aspx">Belted Kingfisher</a></li><br /><br /><i>Total: 53/60</i><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/bird-list-update" title="permanent link">3:10 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/bird-list-update#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=115523747348702215" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=115523747348702215" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+  <h2 class="date-header">Friday, August 04, 2006</h2>
+  
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="116302314164616871"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Mammoth Cave
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>We had left early for our trip to Nashville so that we could spend a day at <a href ="http://www.nps.gov/maca/">Mammoth Cave</a>.  We arrived early in the morning and got a quick start on the Junior Ranger materials before our first tour group was scheduled to leave.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth1.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth1.JPG" width="395" /></a><br /><br />It was very hot outside, even though it was early in the morning.  Mist can be seen at the mouth of the cave from the cold air the cave was breathing out.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth2.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth2.JPG" width="395" /></a><br /><br />The first tour we went on was the <a href="http://www.nps.gov/maca/planyourvisit/tour-violetcity.htm">Violet City Lantern Tour</a>.  On this tour there were no flashlights, only the original style lanterns that were used in the cave over 100 years ago.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth3.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth3.JPG" width="395" /></a><br /><br />The second tour we took was the <a href="http://www.nps.gov/maca/planyourvisit/tour-newentrance.htm">Frozen Niagra Tour</a>.  You wind down a very narrow stairway.  The elevation change on the trip is about 250 feet.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth4.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/mammoth4.JPG" width="395" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/mammoth-cave" title="permanent link">9:28 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/mammoth-cave#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=116302314164616871" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=116302314164616871" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+    
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="116302130875974078"></a>
+
+     
+	 
+    <h3 class="post-title">
+	 Harpers Ferry NHP
+    </h3>
+	 
+    
+
+         <div class="post-body">
+
+          <p>
+      <div style="clear:both;"></div>We stopped at <a href="http://www.nps.gov/hafe/">Harpers Ferry</a> on our way to a music gig in Nashville, Tennessee.  We only had a few hours to spare on our trip down but we managed to see quite a lot of what was there and the kids had time to complete the Harpers Ferry Junior Ranger program.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hftown.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/hftown.JPG" width="395" /></a><br /><br />While we were crossing the footbridge across the Potomac River, Amtrak made its evening trek Northwest to Chicago.  It is shown here stopped at the Harpers Ferry <a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfstation2.JPG">station</a>.  This is significant because we make a short stop at this station when we take Amtrak to the Division Level Bible Achievement events. In fact in <a href="http://vicki.ashtonfam.org/pix/schoolblogpics/100_9432.JPG">this picture</a> you can see the chain-fence-covered walk way that we were crossing when I took the picture below. <a href="http://vicki.ashtonfam.org/homeschool-weblog/2005/04/bible-bowl-north-american-division.html">(2005 trip)</a> <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/04/bible-bowl-2006-north-american.html">(2006 trip)</a><br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfstation.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfstation.JPG" width="395" /></a><br /><br />One of the unique things about Harpers Ferry is that it is the meeting place of two railroads, two rivers, and the C&O Canal.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfriver.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfriver.JPG" width="395" /></a><br /><br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hftunnel.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/hftunnel.JPG" width="395" /></a><br /><br />William, taking a rest from the heat.<br /><a href="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfwilliam.JPG"><img src="http://vicki.ashtonfam.org/pix/schoolblogpics2/hfwilliam.JPG" width="395" /></a><div style="clear:both; padding-bottom:0.25em"></div>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em>posted by Vics @ <a href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/harpers-ferry-nhp" title="permanent link">8:28 PM</a></em> &nbsp;
+      
+         <a class="comment-link" href="http://vicki.ashtonfam.org/homeschool-weblog/2006/08/harpers-ferry-nhp#comments">0 comments</a>
+       <span class="item-action"><a href="http://www.blogger.com/email-post.g?blogID=7575196&postID=116302130875974078" title="Email Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_email.gif"/></a></span><span class="item-control blog-admin pid-1765858751"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=7575196&postID=116302130875974078" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif"></a></span>
+    </p>
+
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ 
+
+  <!-- End #comments -->
+
+
+
+
+
+</div></div></div>
+
+<!-- End #main -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #sidebar -->
+
+<div id="sidebar">
+
+    <!-- Begin #profile-container -->
+
+   <div id="profile-container"><h2 class="sidebar-title">About Me</h2>
+<dl class="profile-datablock"><dt class="profile-img"><a href="http://www.blogger.com/profile/02971722613129488872"><img src="http://vicki.ashtonfam.org/pix/vicsblogpics/usprofile.gif" width="65" height="80" alt="My Photo"></a></dt>
+<dd class="profile-data"><strong>Name:</strong>  Vicki Ashton </dd>
+<dd class="profile-data"><strong>Location:</strong>  Germantown, Maryland, United States </dd></dl>
+
+<p class="profile-link"><a href="http://www.blogger.com/profile/02971722613129488872">View my complete profile</a></p></div>
+
+  <!-- End #profile -->
+
+
+
+    <!-- Begin .box -->
+
+  <div class="box"><div class="box2"><div class="box3">
+
+      <h2 class="sidebar-title">William and Beth's Blogs</h2>
+    <ul>
+<li><a href="http://williamsenglishassignment.blogspot.com/">William's English Blog
+<li><a href="http://williamspathfinderblog.blogspot.com/">William's Pathfinder Blog</a></li>
+<li><a href="http://bethswritingassignment.blogspot.com/">Beth's English Blog</a></li>
+<li><a href="http://bethswildlifejournal.blogspot.com/">Beth's Wildlife Journal</a></li>
+    </ul>
+
+      <h2 class="sidebar-title">Family Blogs</h2>
+    <ul>
+        <li><a href="http://vicsgarden.blogspot.com/">My Garden</a></li>
+        <li><a href="http://ashtoncats.blogspot.com/">The Cats of Ashton Hall</a></li>
+        <li><a href="http://parajournal.blogspot.com/">Parakeet Journal</a></li>
+    	 <li><a href="http://daniel.ashtonfam.org/weblog/">J. Daniel Ashton</a></li>
+        <li><a href="http://mdmusic.blogspot.com/">Maryland Music</a></li>
+    </ul>
+
+      <h2 class="sidebar-title">Previous Posts</h2>
+    <ul id="recently">
+    
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/12/washington-dc-day-two">Washington DC - Day Two</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/12/us-botanic-garden-again">US Botanic Garden Again</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2008/01/us-botanic-garden">US Botanic Garden</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2008/01/national-zoo">National Zoo</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/11/hiking-at-triadelphia">Hiking at Triadelphia</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/11/edwards-ferry-whites-ferry">Edwards Ferry &amp; Whites Ferry</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/10/kittens-are-growing">The Kittens are Growing</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2008/01/us-national-arboretum">US National Arboretum</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/10/washington-dc-at-night">Washington DC at Night</a></li>
+     
+        <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007/10/great-falls-virginia">Great Falls, Virginia</a></li>
+     
+  </ul>
+
+    
+  <h2 class="sidebar-title">Archives</h2>
+    <ul class="archive-list">
+   	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_07_01_">July 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_08_01_">August 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_09_01_">September 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_10_01_">October 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_11_01_">November 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2004_12_01_">December 2004</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_01_01_">January 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_02_01_">February 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_03_01_">March 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_04_01_">April 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_05_01_">May 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_06_01_">June 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_10_01_">October 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2005_12_01_">December 2005</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_01_01_">January 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_02_01_">February 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_03_01_">March 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_04_01_">April 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_05_01_">May 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_06_01_">June 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_08_01_">August 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_09_01_">September 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2006_11_01_">November 2006</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_01_01_">January 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_02_01_">February 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_06_01_">June 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_07_01_">July 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_08_01_">August 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_09_01_">September 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_10_01_">October 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_11_01_">November 2007</a></li>
+	  
+    	<li><a href="http://vicki.ashtonfam.org/homeschool-weblog/2007_12_01_">December 2007</a></li>
+	  
+      <li><a href="http://vicki.ashtonfam.org/homeschool-weblog/">Current Posts</a></li>
+
+      <h2 class="sidebar-title">Junior Ranger Certificates earned
+      through the <i><a href="http://www.nps.gov/">National Park Service</a></i></h2>
+    <ul>
+<li><a href="http://www.nps.gov/gwmp/grfa/pphtml/forkids.html">Great Falls</a> - 05/07/06</li>
+<li><a href="http://www.nps.gov/nacc/pphtml/forkids.html">National Mall</a> - 05/09/06</li>
+<li><a href="http://www.nps.gov/gwmp/pphtml/forkids.html">George Washington Parkway</a> - 05/21/06</li>
+<li><a href="http://www.nps.gov/choh/pphtml/forkids.html">Chesapeake & Ohio  Canal</a> - 05/21/06</li>
+<li><a href="http://www.nps.gov/whho/forkids/index.htm">President's Park</a> - 05/23/06</li>
+<li><a href="http://www.nps.gov/fowa/">Fort Washington</a> - 06/04/06</li>
+<li><a href="http://www.nps.gov/chch/pphtml/forkids.html">Chickamauga and Chattanooga National Military Park</a> - 06/13/06</li>
+<li><a href="http://www.nps.gov/ruca/pphtml/forkids.html">Russell Cave</a> - 06/13/06</li>
+<li><a href="http://www.nps.gov/anjo/">Andrew Johnson</a> - 06-19-06</li>
+<li><a href="http://www.nps.gov/hafe/home.htm">Harpers Ferry</a> - 08-03-06</li>
+<li><a href="http://www.nps.gov/maca/">Mammoth Cave</a> - 08-04-06</li>
+<li><a href="http://www.nps.gov/asis/forkids/index.htm">Assateague Island</a> - 08-14-06</li>
+<li><a href="http://www.nps.gov/vafo/forkids/index.htm">Valley Forge</a> - 02-21-07</li>
+<li><a href="http://www.nps.gov/anti/forkids/index.htm">Antietam National Battlefield</a> - 05/03/07</li>
+    </ul>
+
+  </ul>
+  
+      <p id="powered-by"><a href="http://www.blogger.com"><img src="http://buttons.blogger.com/bloggerbutton1.gif" alt="Powered by Blogger" /></a></p>
+
+        <!--
+
+    <p>This is a paragraph of text that could go in the sidebar.</p>
+
+    -->
+
+    </div></div></div>
+
+  <!-- End .box -->
+
+
+
+
+</div>
+
+<!-- End #sidebar -->
+
+
+
+
+
+
+
+
+
+<!-- Begin #footer -->
+
+<div id="footer"><div><div><hr />
+
+
+
+  <p><!-- This is an optional footer. If you want text here, place it inside these tags, and remove this comment. -->&nbsp;</p>
+
+
+
+</div></div></div>
+
+<!-- End #footer -->
+
+
+
+
+
+
+
+
+</div>
+
+<!-- End #content -->
+
+
+
+</body>
+
+</html>

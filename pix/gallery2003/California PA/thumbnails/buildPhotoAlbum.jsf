@@ -1,0 +1,68 @@
+App.progressCountTotal = 8;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-004-0A.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = '1794701-R1-004-0A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-004-0A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-004-0A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-004-0A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-004-0A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-004-0A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-004-0A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-008-2A.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = '1794701-R1-008-2A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-008-2A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-008-2A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-008-2A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-008-2A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-008-2A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-008-2A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-010-3A.jpg');
+App.progressCountCurrent = 3;
+App.batchStatusString = '1794701-R1-010-3A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-010-3A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-010-3A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-010-3A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-010-3A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-010-3A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-010-3A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-012-4A.jpg');
+App.progressCountCurrent = 4;
+App.batchStatusString = '1794701-R1-012-4A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-012-4A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-012-4A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-012-4A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-012-4A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-012-4A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-012-4A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-014-5A.jpg');
+App.progressCountCurrent = 5;
+App.batchStatusString = '1794701-R1-014-5A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-014-5A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-014-5A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-014-5A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-014-5A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-014-5A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-014-5A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-016-6A.jpg');
+App.progressCountCurrent = 6;
+App.batchStatusString = '1794701-R1-016-6A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-016-6A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-016-6A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-016-6A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-016-6A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-016-6A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-016-6A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-022-9A.jpg');
+App.progressCountCurrent = 7;
+App.batchStatusString = '1794701-R1-022-9A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-022-9A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-022-9A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-022-9A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-022-9A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-022-9A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-022-9A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California 2003/1794701-R1-024-10A.jpg');
+App.progressCountCurrent = 8;
+App.batchStatusString = '1794701-R1-024-10A.jpg';
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-024-10A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-024-10A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/images/1794701-R1-024-10A_jpg.jpg',({applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0}));
+if (!Files.exists('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-024-10A_jpg.jpg') || confirm('file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-024-10A_jpg.jpg already exists. Click OK to replace the file.')) 
+fw.exportDocumentAs(doc, 'file:///Macintosh HD/Users/vlashton/Sites/Vics/pix/gallery2003/California PA/thumbnails/1794701-R1-024-10A_jpg.jpg',({applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100}));
+fw.closeDocument(doc);
+'done';

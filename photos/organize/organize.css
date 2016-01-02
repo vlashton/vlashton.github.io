@@ -1,0 +1,299 @@
+body
+{
+	text-align: center;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+}
+
+a, a:link, a:active, a:visited
+{
+	color: gray;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+h1
+{
+	font-family: "Hoefler Text", Georgia, Times, serif;
+	font-weight: normal;
+}
+
+h1
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding: 0px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+h1 a, h1 a:link, h1 a:active, h1 a:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+h1 a:hover
+{
+	color: gray;
+}
+
+h2
+{
+	height: 40px;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: bold;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 1px solid black;
+}
+
+h3
+{
+	font-size: 16px;
+	padding: 0px 10px 0px 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+#holder
+{
+	width: 500px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#content
+{
+	padding: 0px 10px 0px 10px;
+	text-align: left;
+}
+
+img
+{
+	border: 0px;
+}
+
+p
+{
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	text-align: left;
+}
+
+strong
+{
+	font-size: 110%;
+}
+
+#menu
+{
+	margin: 0px;
+	background-color: gray;
+	height: 30px;
+	padding: 0px 0px 0px 5px;
+	text-align: left;
+	list-style: none;
+
+}
+
+ul#menu {
+list-style: none;
+}
+
+ul#menu li
+{
+	display: inline;
+	margin: 0px 0px 0px 5px;
+	padding: 0px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+ul#menu li a, ul#menu li a:link, ul#menu li a:visited, ul#menu li a:active
+{
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+ul#menu li a:hover
+{
+	color: black;
+}
+
+#submenu
+{
+	margin: 0px;
+	padding-left: 10px;
+	background-color: #ccc;
+	height: 25px;
+	text-align: left;
+}
+
+ul#submenu {
+	list-style: none;
+}
+
+ul#submenu li
+{
+	display: block;
+	float: left;
+	margin-left: 5px;
+	height: 20px;
+	line-height: 25px;
+	font-size: 12px;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+
+ul#submenu li a, ul#submenu li a:link, ul#submenu li a:visited, ul#submenu li a:active
+{
+	color: black;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+ul#submenu li a:hover
+{
+	color: gray;
+	text-decoration: underline;
+}
+
+.center
+{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+/* For descriptions list */
+.centerPlain
+{
+	margin: 20px auto 0px auto;
+	padding: 0px;
+	text-align: center;
+	list-style: none;
+	list-style-position: inside;
+	width: 340px;
+}
+
+.centerPlain li
+{
+	margin: 0px auto 10px auto;
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	width: 340px;
+	background-color: #e8e8e8;
+	
+}
+
+.centerPlain li img
+{
+	float: left;
+	border-right: 15px solid white;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+}
+
+.centerPlain li p
+{
+	
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	text-align: left;
+}
+
+.centerPlain li p strong
+{
+	margin-bottom: 5px;
+}
+
+.plain
+{
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	text-align: left;
+	list-style: none;
+	list-style-position: inside;
+}
+
+.plain li
+{
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.plain li img
+{
+	float: left;
+	border-right: 15px solid white;
+	margin: 0px padding: 0px;
+}
+
+.big
+{
+	font-size: 200%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	text-decoration: underline;
+}
+
+ol li
+{
+	margin: 0px 0px 15px 0px;
+}
+
+.rightBox
+{
+	width: 140px;
+	position: relative;
+	right: 0;
+	float: right;
+	background-color: #CCC;
+	border: 1px solid gray;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	font-size: 90%;
+	line-height: 1.5em;
+}
+
+.rightBox strong
+{
+	font-size: 110%;
+}
+
+.rightBox h3
+{
+	text-decoration: underline;
+}
+.rightBox ul {
+	margin-left: 10px;
+	padding-left: 0px;
+}
+
+.columnLeft {
+float: left;
+width: 239px;
+
+border-right: 1px solid gray;
+}
+.columnRight {
+float: left;
+width: 230px;
+margin-left: 10px;
+}

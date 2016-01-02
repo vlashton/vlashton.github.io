@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"><title>PhotoStack Documentation</title>
+		
+		<link rel="stylesheet" href="Docs_files/styles.css" media="all"></head>	
+
+
+	<body>
+		<h1>
+			PhotoStack 
+		</h1>
+		<ul>
+			<li>
+				<a href="#about">
+					About PhotoStack 
+				</a>
+			</li>
+			<li>
+				<a href="#cclicense">
+					License 
+				</a>
+			</li>
+			<li>
+				<a href="#installation">
+					Installation Requirements 
+				</a>
+			</li>
+			<li>
+				<a href="#configuration">
+					Installation &amp; Configuration 
+				</a>
+			</li>
+			<li>
+				<a href="#organization">
+					Organization 
+				</a>
+			</li>
+			<li>
+				<a href="#albums">
+					Albums 
+				</a>
+			</li>
+			<li>
+				<a href="#photos">
+					Photos 
+				</a>
+				<ul>
+					<li>
+						<a href="#photos-display">
+							Display Order 
+						</a>
+					</li>
+					<li>
+						<a href="#photos-exclude">
+							Exclusion 
+						</a>
+					</li>
+					<li>
+						<a href="#photos-desc">
+							Descriptions 
+						</a>
+					</li>
+					<li>
+						<a href="#photos-date">
+							Dates 
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#thumbnails">
+					Thumbnails 
+				</a>
+				<ul>
+					<li>
+						<a href="#thumbnails-thumbnails">
+							Thumbnail Creation 
+						</a>
+					</li>
+					<li>
+						<a href="#thumbnails-flushing">
+							Flushing 
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#templates">
+					Templates 
+				</a>
+				<ul>
+					<li>
+						<a href="#templates-html">
+							Web Templates 
+						</a>
+					</li>
+					<li>
+						<a href="#templates-syn">
+							Syndication Templates 
+						</a>
+					</li>
+					<li>
+						<a href="#templates-template">
+							&amp;template= 
+						</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#template_tags">
+					Template Tags 
+				</a>
+			</li>
+		</ul>
+		
+		<h2 id="about">
+			About 
+		</h2>
+		<h3>
+			What?
+		</h3>
+		<p>
+PhotoStack is an image organization system featuring template driven
+layout, web based organization, smart caching, automatic thumbnail
+creation, RSS feeds, picture level EXIF date extraction, and picture
+level descriptions, all without the need for an SQL like database. </p>
+		<h3>
+			Who?
+		</h3>
+		<p>
+			<a href="http://leavesrustle.com/">
+				Noel D. Jackson
+			</a>
+			— 
+			<a href="mailto:noel@noeljackson.com">
+				noel@noeljackson.com</a>
+		</p>
+		<h3>
+			Where?
+		</h3>
+		<p>
+			<a href="http://photostack.org/">
+				PhotoStack.org</a>
+		</p>
+		<h2 id="license">
+			License 
+		</h2>
+		<p>
+			This work is licensed under the 
+			<a href="http://creativecommons.org/licenses/by-nd-nc/1.0/">
+				Creative Commons Attribution-NoDerivs-NonCommercial License</a>.
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-nd-nc/1.0/ or send a letter to
+Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305,
+USA </p>
+		<h2 id="installation">
+			Installation Requirements 
+		</h2>
+		<ul>
+			<li>
+				<a href="http://php.net/">
+					PHP</a>
+			</li>
+			<li>
+				<a href="http://www.boutell.com/gd/">
+					GD Graphics Library</a>: If your version is &lt; 2.0 please make sure 
+				<code>
+					$this-&gt;photostack['gd2'] = 'no';
+				</code>
+				is present in 
+				<code>
+					config.php</code>.
+			</li>
+			<li>
+				FTP Access to your webserver.
+			</li>
+			<li>
+				The PHP FTP module compiled into your installation — without this web based organization will not work.
+			</li>
+		</ul>
+		<h2 id="configuration">
+			Installation &amp; Configuration 
+		</h2>
+		<p>
+			Configuration and installation is relatively simple. Below is a quick setup guide. 
+		</p>
+		<ol>
+			<li>
+				Upload all files from the .zip archive to your installation directory.
+			</li>
+			<li>
+				Edit config.php in a text editor.
+			</li>
+			<li>
+				chmod the 'storage' directory to 777.
+			</li>
+			<li>
+				The fake album is now set up. Go to your installation directory with your web browser.
+			</li>
+			<li>
+				Edit albums.txt using the format "albumfolder:Album Name", creating a folder for each album you input.
+			</li>
+			<li>
+				If you have the PHP FTP module installed, go to the "organize" directory in your web browser for easy album management.
+			</li>
+		</ol>
+
+		<h2 id="organization">
+			Organization 
+		</h2>
+		<p>Web
+based organization is simple. Simply append /organize to your
+installation to be greeted with the web interface. For example:
+http://yourhost.com/photos/organize/</p>
+
+		<h2 id="albums">
+			Albums
+		</h2>
+		
+		<p>There are just a few steps to getting your albums set up:</p>
+
+<ul>
+<li>Edit albums.txt. Use the format <code>albumfolder:Album's Title</code>. On each line put a different album.</li>
+
+<li>Create a folder for each album, with the name that you specified in <code>albumfolder:Album's Title</code>.</li>
+
+<li>Upload your photos to the <code>albumfolder</code> directory of each different album folder.</li>
+
+<li>Rinse, lather, repeat.</li>
+
+</ul>
+
+<p>The album descriptions will be placed in a text file in the root of your photostack directory called <code>albums.txt</code> (you can change the name in config.php). The format is <code>albumfolder:Album's Title</code>.</p>
+
+<p>If my album folder was going to be <code>newyork</code> and I wanted the description to be <code>New York 2002</code> I would simply put <code>newyork:New York2002</code> in the <code>albums.txt</code> file. Each album entry is on a separate line. A possible albums.txt file could be:</p>
+
+<p><code>stephanie:Stephanie<br>
+newyork:NY and PA 2002<br>
+jkwedding:James and Kim's Wedding<br>
+nature:Nature<br>
+babylily:Baby Lily</code></p>
+
+<p>Edit albums.txt replacing <code>albumfolder:Album's Name</code> with the album folder and album names that you wish to create. Create a folder for each of your album folders.</p>
+
+<p>This listing would look something like this:</p>
+<p class="center"><img src="Docs_files/albumListing.png" width="400" height="477" alt="Screen Shot"></p>
+<p>To make the album live, create a folder correpsonding to the name that you specified as your album folder and <strong>place your photos in this directory</strong>.</p>
+<p>A directory structure for an installation with one album with the folder of 'newyork' would look something like this:</p>
+
+<pre>|-- albums.txt
+|-- config.php
+|-- index.php
+|-- newyork
+|   |-- 0.jpg
+|   |-- 1.jpg
+|   |-- 10.jpg
+|   |-- 2.jpg
+|   |-- 3.jpg
+|   |-- 4.jpg
+|   |-- 5.jpg
+|   |-- 6.jpg
+|   |-- 7.jpg
+|   `-- 8.jpg
+|-- photostack.php
+|-- rssDisplay.tmpl.php
+|-- rssIndex.tmpl.php
+|-- storage
+|-- textismDisplay.tmpl.php
+`-- textismIndex.tmpl.php
+</pre>
+
+<h3 id="dates">Overriding Automatic Dates</h3>
+
+<p>The default date for your album is chosen from the date of the first
+photo in that album. First taking the date from the EXIF metadata (time
+of exposure) second taking that from the file's last modified time.</p>
+
+<p>If your camera does not support EXIF data (most digital cameras do),
+or if it gets stripped out somehow (PhotoShop Web Save) you can
+manually set the album's date.</p>
+
+<p>Simply make that album's line in the format <code>albumid:Album's Title:albumdate</code>.
+It doesn't matter what format the date is in, as long as it is a
+standard format. The date will automatically be converted to the proper
+date format using <code><a href="http://www.php.net/manual/en/function.strtotime.php">strtotime()</a></code> with the format specified at <code>$this-&gt;photostack['dateFormat']</code> in config.php. Possible formats:</p>
+
+<ul>
+<li>
+10 September 2000
+</li>
+<li>
+9/10/00
+</li>
+<li>
+September 10th 2000
+</li>
+</ul>
+		<h2 id="photos">
+			Photos
+		</h2>
+		<h3>
+			Display Order
+		</h3>
+		<p>
+Photos are displayed in the order that they are listed in the directory
+on your web server. This allows easy compilation and display of albums.
+</p>
+		<p> By default photos are ordered by natural order. This
+makes more logical sense and you would not want to turn it off in most
+cases. You can change this order by editing config.php </p>
+		<h3>
+			Descriptions
+		</h3>
+		<p>
+			Picture descriptions are placed in the 
+			<code>
+				title
+			</code>
+			attribute of the picture's link by default, you can change this with a little templating change. The 
+			<code>
+				title
+			</code>
+			attribute is seen by hovering over a picture.
+		</p>
+		<p>
+			A 
+			<code>
+				desc.txt
+			</code>
+			file is not needed. The description will default to the name of the photo such as 
+			<code>
+				DSCN0009.jpg
+			</code>
+			if there is no desc.txt entry for that photo.
+		</p>
+		<p>
+			The 
+			<code>
+				desc.txt
+			</code>
+			file can be used to designate an explicit photo order. Just edit config.php accordingly.
+		</p>
+		<p>
+			Picture descriptions are in the same format as the 
+			<code>
+				albums.txt
+			</code>
+			description file. 
+			<strong>
+				Place the descriptions in a file called desc.txt in your albums folder.
+			</strong>
+			For example, if I added desc.txt to my newyork album it would look like this:
+		</p>
+<pre>.
+|-- albums.txt
+|-- config.php
+|-- index.php
+|-- newyork
+|   |-- 0.jpg
+|   |-- 1.jpg
+|   |-- 10.jpg
+|   |-- 2.jpg
+|   |-- 3.jpg
+|   |-- 4.jpg
+|   |-- 5.jpg
+|   |-- 6.jpg
+|   |-- 7.jpg
+|   |-- 8.jpg
+|   `-- <strong>desc.txt</strong>
+|-- photostack.php
+|-- rssDisplay.tmpl.php
+|-- rssIndex.tmpl.php
+|-- storage
+|-- textismDisplay.tmpl.php
+`-- textismIndex.tmpl.php</pre> 
+		<p>
+			This desc.txt file could look like this:
+		</p>
+		<p>
+			<code>
+				DSCN0009.jpg:Chocolate World
+				<br>
+				DSCN0030.jpg:Lee eats Ice Cream.
+				<br>
+				DSCN0035.jpg:Close Up of Tiled Ball
+				<br>
+				DSCN0038.jpg:Lee Against Memorial Wall
+				<br>
+				DSCN0055.jpg:Stephanie Reading a Book
+				<br>
+				DSCN0058.jpg:Lee On Tire Swing</code>
+		</p>
+		<p>
+			A screenshot:
+		</p>
+		<p class="center">
+			<img src="Docs_files/desc.png" width="400" height="352" alt="desc.txt example">
+		</p>
+		<h3>
+			Dates
+		</h3>
+		<p>
+Dates for pictures are created automatically from the EXIF data of a
+file if it is present. If it's not present, the date will just be the
+last modification time. </p>
+		<p>
+			This script does not use the built in PHP EXIF functions. It uses 
+			<a href="http://www.offsky.com/software/exif/index.php">
+				Exifer</a>, or rather a custom revision of this script.
+		</p>
+		<h2 id="templates">
+			Templates 
+		</h2>
+		
+		<p>Templates
+are the glue of PhotoStack. The default HTML template is designed after
+http://textism.com/photos/ (Thanks Dean). I didn't steal. I asked and I
+recreated.</p>
+
+
+<h3 id="templates-html">HTML Templates</h3>
+<p>If an album is present PhotoStack will use the template specified in the <code>$this-&gt;photostack['templateDisplay']</code> variable in <code>config.php</code>. If not, it will use the template specified in <code>$this-&gt;photostack['templateIndex']</code>. These default to <code>textismDisplay.tmpl.php</code> and <code>textismIndex.tmpl.php</code>.</p>
+
+<p>You can easily change the look of your templates if you posses even the most meager HTML skills.</p>
+
+
+<h3 id="templates-syn">Syndication Templates</h3>
+<p>To generate an RSS feed for a particular album just append <code>&amp;format=rss</code> to the album's URL.</p>
+
+<p>You can edit which "format" you provide based on a switch in config.php. This will allow for <code>format=echo</code>, for example.</p>
+
+<p>For example: <code>http://yourhost.com/photos/?album=newyork</code> would become <code>http://yourhost.com/photos/?album=newyork&amp;format=rss</code>. Or <code>http://yourhost.com/photos/</code> would become <code>http://yourhost.com/photos/?format=rss</code>. Notice that for the first variable it uses ? instead of &amp;.</p>
+
+<p>If an album is present PhotoStack will use the template specified in the <code>$this-&gt;photostack['templateRssDisplay']</code> variable in <code>config.php</code>. If not, it will use the template specified in <code>$this-&gt;photostack['templateRssIndex']</code>. These default to <code>rssDisplay.tmpl.php</code> and <code>rssIndex.tmpl.php</code>.</p>
+
+<p>RSS is a syndication format. To learn more about it read this.</p>
+
+<h3 id="templates-template">&amp;template=</h3>
+
+<p>Specify the template of your choice by appending <code>&amp;template=templatefile.tmpl.php</code> to the URL in your browser.</p>
+
+<p>For example: <code>http://yourhost.com/photos/?album=newyork</code> would become <code>http://yourhost.com/photos/?album=newyork&amp;template=amazingIndex.tmpl.php</code>.</p>
+		
+		
+		<h2 id="template_tags">
+			Template Tags 
+		</h2>
+		<h3>
+			General 
+		</h3>
+		<h4>
+			&lt;$PSSeparator$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“›” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSNameMain$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“Your Site” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSNameAuthor$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“Your Name” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSNamePhotos$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“Photographs” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h3>
+			CurrentAlbum 
+		</h3>
+		<h4>
+			&lt;$PSCurrentAlbumTitle$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“Fake Album” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentAlbumURL$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/?album=fake ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentAlbumCount$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“5 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentAlbumFolder$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“fake ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentAlbumDate$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“12 Jul 2002” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h3>
+			CurrentPhoto 
+		</h3>
+		<h4>
+			&lt;$PSCurrentPhotoPath$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/fake/DSCN0009.jpg” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoHeight$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“250 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoWidth$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“250 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoDescription$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“DSCN0009.jpg ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoDate$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“12 Jul 2002 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoURL$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/?album=fake&amp;#038;img=1 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSCurrentPhotoNumber$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“1 ” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h3>
+			PSAlbums 
+		</h3>
+		<h4>
+			&lt;PSAlbums&gt; &lt;/PSAlbums&gt; 
+		</h4>
+		<p>
+These are container tags for the album listing tags below. This tag
+will loop through all the albums in the listing. If no album is being
+viewed they will return nothing. </p>
+		<p>
+			<strong>
+				num="" 
+			</strong>
+			can be used as an attribute to designate how many albums you want displayed. 
+		</p>
+		<p>
+			<strong>
+				offset="" 
+			</strong>
+			can be used to offset the num="" value. 
+		</p>
+		<h4>
+			&lt;$PSAlbumTitle$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“Fake” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSAlbumFolder$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“fake” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSAlbumFirstImagePath$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://leavesrustle.com/photos/storage/thumb-sanfrancisco2003-1CRW_0591.jpg.png” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSAlbumDate$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“12 Jul 2002” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSAlbumSelected$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“ selected="selected"” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSAlbumCount$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“5” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h3>
+			PSPhotos 
+		</h3>
+		<h4>
+			&lt;PSPhotos&gt; &lt;/PSPhotos&gt; 
+		</h4>
+		<p>
+These are container tags for the photo listing tags below. This tag
+will loop through all the pictures in the current albums listing. If no
+album is being viewed they will return nothing. </p>
+		<p>
+			<strong>
+				num="" 
+			</strong>
+			can be used as an attribute to designate how many photos you want displayed. 
+		</p>
+		<p>
+			<strong>
+				offset="" 
+			</strong>
+			can be used to offset the num="" value. 
+		</p>
+		<h4>
+			&lt;$PSPhotoNumber$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“1” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoDate$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“12 Jul 2002” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoDescription$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“DSCN0009.jpg” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoURL$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/?album=fake&amp;#038;img=1” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoPath$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/fake/DSCN0009.jpg” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoThumbPath$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“http://code.site/photos/storage/thumb-fake-DSCN0009.jpg.png” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoHeight$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“250” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoWidth$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“250” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoFilename$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“DSCN0009.jpg” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoThumbHeight$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“50” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+		<h4>
+			&lt;$PSPhotoThumbWidth$&gt; 
+		</h4>
+		<p>
+			<strong>
+				“50” 
+			</strong>
+			is an example of what this tag might return. 
+		</p>
+	</body></html>

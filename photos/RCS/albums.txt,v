@@ -1,0 +1,37 @@
+head	1.1;
+access;
+symbols;
+locks
+	root:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2004.06.22.16.05.50;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@JWPix:William's Picx
+DansPix:Daniel has Pictures
+y2002DCBike:Early Morning Biking on the Mount Vernon Trail
+y2003Gettysburg:Gettysburg
+y2003CommunityService:Pulling Weeds at Germantown Station
+doily_pics:Crocheting
+
+our_chryslers:Chrysler Swapping
+
+dc_remembers_reagan:DC Remembers Reagan
+dc_photos:Misc. DC Photos
+national_aquarium:National Aquarium
+world_war_ii_memorial:World War II Memorial
+@
